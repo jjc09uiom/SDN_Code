@@ -1,0 +1,15 @@
+{
+  "extends": ["airbnb-base", "plugin:prettier/recommended"],
+  "env": {
+    "node": true,
+    "jasmine": true
+  },
+  "globals": {
+    "console": true,
+    "module": true
+  },
+  "plugins": ["prettier", "nada"],
+  "rules": {
+    "nada/path-case": [1, { "case": "kebabCase" }]
+  }
+}
